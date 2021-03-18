@@ -45,7 +45,6 @@ public class Pets
     		
     	}catch(Exception e) {
     		return new ResponseEntity<String>(e.getMessage(),HttpStatus.CONFLICT);
-    		
     	}
     	
     }
